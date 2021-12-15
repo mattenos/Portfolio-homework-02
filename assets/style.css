@@ -57,26 +57,29 @@ p {
 
 
 .main-header {
-    padding: 20px;
+    padding: 10px;
     background-color: #005b8885;
     color: #ffffff;
 }    
 
 
 .background {
-    margin-left: 0px;
     padding: 20px;
-    float: left;
-    width: 20%;
     background-color: #2589bd;
     color: white;
     background-size: 100%;
 }    
 
-.background p {
-    margin-bottom: 500px;
-    text-align: center;
-}    
+.background h2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-header a:hover {
+   color: hotpink;
+}
 
 .project {
     flex: 2;
@@ -95,7 +98,6 @@ p {
     padding: 4px;
     flex: 0 0 200px;
     background-color: grey;
-    
   }
   
 .card header {
@@ -107,10 +109,19 @@ p {
     width: 100%;
   }
 
+.card:hover {
+}
+
+.contact {
+    color: white;
+    text-align: center;
+    }
+
 .footer {
-    padding: 30px;
+    padding: 10px;
     clear: both;
     text-align: center;
+    background-color: #005b8885;
 }    
 
 .footer h2 {
