@@ -19,10 +19,10 @@ a {
     text-decoration: none;
 }    
 
-aside {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+button {
+    font-size: 26px;
+    font-weight: bolder;
+    background-color: inherit;
 }
 
 p {
@@ -36,6 +36,12 @@ p {
     height: 200px;
     border: 2px;
     align-items: center;
+}
+
+.background p {
+    display: flex;
+text-align: center;
+justify-content: center;
 }
 
 .main-header h1 {
@@ -108,9 +114,6 @@ p {
 .card img {
     width: 100%;
   }
-
-.card:hover {
-}
 
 .contact {
     color: white;
