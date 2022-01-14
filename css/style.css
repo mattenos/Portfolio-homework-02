@@ -1,25 +1,16 @@
-
 a {
     text-decoration: none;
-    color: black;
+    color: snow;
 }
 
 a :hover {
-    color: snow;
+    color: rebeccapurple;
 }
 
 button {
     width: 100%;
 }
-.nav {
-    display: flex;
-    flex-wrap: wrap;
-    padding-left: 0;
-    margin-bottom: 10;
-    list-style: none;
-    justify-content: center;
-    background-color: slategray;
-}
+
 
 .footer {
     display: flex;
@@ -84,7 +75,6 @@ button {
     align-items: flex-start;
   }
 
-
   @media screen and (max-width: 768px) {
     main,
     nav {
@@ -112,13 +102,34 @@ button {
       margin-top: 10px;
   }
 
-.bio-image{
-    padding: 20px;
-    overflow: hidden;
-    float: left;
-}
-.bio-image img {
+.intro img {
     width: 15%;
     height: auto;
     position: relative;
+}
+.intro div p {
+justify-content: center;
+align-items: center;
+}
+
+.header div {
+  padding-top: 15px;
+  margin-right: 20px;
+  float: right;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+}
+
+.header div ul li {
+  display: inline-block;
+  margin-left: 25px;
+} 
+
+.header h2 {
+  display: inline-block;
+  font-size: 48px;
+}
+
+.header {
+  background-color: slategray;
 }
