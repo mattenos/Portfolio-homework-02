@@ -9,38 +9,14 @@ a :hover {
 
 button {
     width: 100%;
-}
-
-
-.footer {
-    display: flex;
-    flex-wrap: wrap;
-    padding-left: 0;
-    margin-bottom: 10;
-    list-style: none;
-    justify-content: center;
-    background-color: slategray;
-}
-
-.nav li {
-    display: inline-block;
-    padding-right: 20px;
-    align-items: center;
-    font-size: 16pt;
-}
-
-.container {
-    width: 960px;
-    height: 1000px;
-    margin: 50px auto;
-    background: rgba(255, 255, 255, 0.507);
-    border: 5px solid #dddddd;
+    background-color: #36454F;
+    color: rgb(0, 255, 0);
 }
 
 .photo {
     padding: 20px 10px;
     border: 2px solid #bfbfbf;
-    background-color: rgb(194, 46, 46);
+    background-color: #5e6f7a;
   }
 
 .card {
@@ -50,86 +26,89 @@ button {
     flex: 0 0 300px;
     box-shadow: 8px 8px 4px #aaaaaa;
     margin: 20px;
-  }
+}
 
 .card header {
     border-radius: 50px 50px 0px 0px;
     padding: 20px;
-  }
+}
   
 .card p {
     text-align: center;
-  }
+}
   
 .card img {
     width: 100%;
-  }
+}
 
 .products {
     flex: 4;
-    background-color: #fff;
     padding: 50px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: flex-start;
-  }
+}
 
-  @media screen and (max-width: 768px) {
-    main,
-    nav {
-      flex-direction: column;
-    }
-    header {
-      background: #772014;
-    }
-    nav,
-    footer {
-      background-color: #bb8588;
-    }
-  }
-
-.background{
+  
+.intro-img img {
+    width: 20%;
+    height: auto;
+    margin: auto;
+    display: block;
+}
+  
+.intro {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-  }
-
-.intro-head {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      margin-top: 10px;
-  }
-
-.intro img {
-    width: 15%;
-    height: auto;
-    position: relative;
+    align-content: center;
+    margin-top: 10px;
 }
-.intro div p {
-justify-content: center;
-align-items: center;
-}
-
-.header div {
-  padding-top: 15px;
-  margin-right: 20px;
-  float: right;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 20px;
-}
-
-.header div ul li {
-  display: inline-block;
-  margin-left: 25px;
+  
+.intro p {
+    display: inline-block;
+    align-content: center;
+    max-width: 500px;
+    text-align: center;
 } 
-
+  
+.about-me h2 {
+    text-align: center;
+}
+  
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+  
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+  } 
+  
 .header h2 {
-  display: inline-block;
-  font-size: 48px;
-}
-
+    display: inline-block;
+    font-size: 48px;
+  }
+  
 .header {
-  background-color: slategray;
-}
+    background-color: slategray;
+  }
+
+@media screen and (max-width: 768px) {
+      main,
+      nav {
+        flex-direction: column;
+      }
+      header {
+        background: #772014;
+      }
+      nav,
+      footer {
+        background-color: #bb8588;
+      }
+    }
